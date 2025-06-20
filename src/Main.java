@@ -21,5 +21,11 @@ public class Main {
         elementi[4] = new Immagine("Immagine", 8);
 
 
+//        Multimediale[] multimediali = {elementi[0], elementi[1], elementi[2], elementi[3], elementi[4]};
+//
+//        for (Multimediale m : multimediali) {
+//            System.out.println("Titolo: " + m.getTitolo());
+//        }
+
     }
 }
