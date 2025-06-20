@@ -33,7 +33,8 @@ public class Video extends Multimediale implements Riproducibile {
     }
 
     public void abbassaVolume() {
-        volume--;
+        //volume--;
+        if (volume > 0) volume--;
     }
 
     public void aumentaLuminosita() {
@@ -41,7 +42,8 @@ public class Video extends Multimediale implements Riproducibile {
     }
 
     public void diminuisciLuminosita() {
-        luminosita--;
+        //luminosita--;
+        if (luminosita > 0) luminosita--;
     }
 
 

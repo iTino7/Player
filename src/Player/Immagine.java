@@ -13,7 +13,8 @@ public class Immagine extends Multimediale {
     }
 
     public void abbassaLuminosita() {
-        luminosita--;
+        //luminosita--;
+        if (luminosita > 0) luminosita--;
     }
 
     public void show() {

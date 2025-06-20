@@ -28,7 +28,8 @@ public class Audio extends Multimediale implements Riproducibile {
     }
 
     public void abbassaVolume() {
-        volume--;
+        //volume--;
+        if (volume > 0) volume--;
     }
 }
 
